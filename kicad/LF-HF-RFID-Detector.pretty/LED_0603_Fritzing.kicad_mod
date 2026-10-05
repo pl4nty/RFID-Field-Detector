@@ -1,0 +1,93 @@
+(footprint "LED_0603_Fritzing"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "ba462917-0b12-417b-8d8b-6598de2c2e7a")
+	(descr "Blue smd LED")
+	(property "Reference" "REF**"
+		(at 1.650024 -1.065542 0)
+		(layer "F.SilkS")
+		(uuid "80932333-db08-4a15-8af1-f5f410ca8914")
+		(effects
+			(font
+				(size 1.234722 1.234722)
+				(thickness 0.185208)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "LED_0603_Fritzing"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "182b1bb8-4a33-47aa-bf27-995c3d05ce43")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6bd4c83-f003-4494-934c-415e20d9bced")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e3b5046-628d-4d60-a383-d26681aa478a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.100003 -0.55)
+		(end -0.100003 0.549999)
+		(stroke
+			(width 0.099999)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff6df270-4929-44bb-86bd-1069b98f2beb")
+	)
+	(fp_poly
+		(pts
+			(xy 1.599993 0.699999) (xy -1.6 0.699999) (xy -1.6 -0.7) (xy 1.599993 -0.7)
+		)
+		(stroke
+			(width 0.099999)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "43dd661a-61c3-4a00-a0b1-3747b2fd9af5")
+	)
+	(pad "1" smd rect
+		(at -0.850002 0)
+		(size 1.199998 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(pinfunction "cathode")
+		(thermal_bridge_angle 45)
+		(uuid "bbb99b4c-d8de-4eef-8ed7-3926b0c00c22")
+	)
+	(pad "2" smd rect
+		(at 0.849995 0)
+		(size 1.199997 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(pinfunction "anode")
+		(thermal_bridge_angle 45)
+		(uuid "6ee15442-ceb6-429c-b044-615f3f0e000c")
+	)
+	(embedded_fonts no)
+)
