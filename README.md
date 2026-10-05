@@ -7,11 +7,18 @@ RFID-Field-Detector is an open source PCB the size of a credit card that is capa
 Corey Harding, it is something neat to hand out to people, sort of like a business card.  
   
 ## How is it licensed?  
-The hardware itself(Fritzing File and Gerber) is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported  
+The hardware itself (KiCad and Fritzing files and Gerber) is licensed under Creative Commons Attribution-ShareAlike 3.0 Unported  
 The SVG files fall under the MIT license  
   
 ## How can I modify it?  
-Use the simple Fritzing PCB design software and modify whatever you wish provided you comply with the license stated above.  
+Open `kicad/LF-HF-RFID-Detector.kicad_pro` in [KiCad](https://www.kicad.org/) 10 or later and modify whatever you wish provided you comply with the license stated above.  
+The KiCad project was converted from `LF-HF-RFID-Detector.fzz`, which is kept for reference and can still be opened in Fritzing. The KiCad project has the PCB only; Fritzing's breadboard and schematic views were not converted.  
+The place-file origin is the bottom-left corner of the board, as in Fritzing, so exported positions line up with `GERBER/positions.csv`.  
+  
+## Tuning  
+Each antenna and its capacitors form a tuned circuit, and an LED only lights when the reader's frequency is near that circuit's resonance.  
+- HF (13.56MHz): C6 (82pF) across the back coil (about 1.4uH). C7-C9 are left unfitted for small trims, e.g. a few pF. Do not fit nF parts here: 12nF across this coil tunes it to about 1.2MHz.  
+- LF (125kHz): C1 and C2 in series, then C3-C5 in parallel, across the front coil (about 64uH). The fitted values total about 26nF, which tunes it to about 123kHz.  
   
 ## Will you help me?  
 Maybe, but make sure you try first.  

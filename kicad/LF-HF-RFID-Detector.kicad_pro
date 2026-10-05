@@ -1,0 +1,19 @@
+{
+  "board": {
+    "design_settings": {}
+  },
+  "meta": {
+    "filename": "LF-HF-RFID-Detector.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default"
+      }
+    ],
+    "meta": {
+      "version": 4
+    }
+  }
+}

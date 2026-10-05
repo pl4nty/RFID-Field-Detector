@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LF-HF-RFID-Detector")(type "KiCad")(uri "${KIPRJMOD}/LF-HF-RFID-Detector.pretty")(options "")(descr "Footprints converted from the Fritzing parts used by this board"))
+)

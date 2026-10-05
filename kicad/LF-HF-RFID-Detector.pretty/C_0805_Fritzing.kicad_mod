@@ -1,0 +1,91 @@
+(footprint "C_0805_Fritzing"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "03561472-90d8-40b1-ab4f-f0754457725f")
+	(descr "Capacitor")
+	(property "Reference" "REF**"
+		(at 1.300115 -1.060727 0)
+		(layer "F.SilkS")
+		(uuid "b7ddbd49-e7fb-488f-b7fe-23ff35383840")
+		(effects
+			(font
+				(size 1.234722 1.234722)
+				(thickness 0.185208)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "C_0805_Fritzing"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "18c4dd2c-fac4-40f1-ba0a-6cea25022bcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af3819e2-801a-456a-be24-3e9946fb2c65")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55c67885-e5d6-49ac-9592-12d2adddd467")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.299999 -0.6)
+		(end 0.3 -0.6)
+		(stroke
+			(width 0.152399)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47493fbf-cc73-4c58-a5d9-3fd32f12e152")
+	)
+	(fp_line
+		(start -0.299999 0.6)
+		(end 0.3 0.6)
+		(stroke
+			(width 0.152399)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2dab60aa-d708-4fe7-9d18-8b7c4d092fcc")
+	)
+	(pad "1" smd rect
+		(at -0.899998 0)
+		(size 0.799998 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(pinfunction "1")
+		(thermal_bridge_angle 45)
+		(uuid "b5508184-28da-4e9a-8f00-3b175e183c0d")
+	)
+	(pad "2" smd rect
+		(at 0.899998 0)
+		(size 0.799998 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(pinfunction "2")
+		(thermal_bridge_angle 45)
+		(uuid "223c3e43-fc9e-497c-939d-cc5bf5724fd2")
+	)
+	(embedded_fonts no)
+)
