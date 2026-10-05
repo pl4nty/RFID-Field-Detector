@@ -412,7 +412,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "DNP"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ce318cd2-7a39-4905-9a70-8c452356a9f4")
@@ -444,18 +444,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C46653"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9954aa4d-6faf-4da9-b975-9091369e2de0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.299999 -0.6)
@@ -514,7 +503,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "DNP"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4ef1d528-f893-455a-83f9-1b7710cee5ea")
@@ -546,18 +535,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C46653"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "800510d9-8a6a-4515-990d-a55ec2cf029c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.299999 -0.6)
@@ -718,7 +696,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "10nF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1d427bfd-58b7-47d4-a9c1-d3351e2fd52f")
@@ -750,7 +728,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C46653"
+		(property "LCSC" "C1710"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1026,7 +1004,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "DNP"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "46f6ba1a-8f99-4a06-8602-0b45040c4467")
@@ -1058,18 +1036,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1710"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f92b4052-91d7-45b8-b705-fc694515c152")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.299999 -0.6)
